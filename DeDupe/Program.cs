@@ -13,7 +13,6 @@ namespace DeDupe
         static List<string> toDelete = new List<string>();
         static void Main(string[] args)
         {
-            //C:\Users\pfckr\Dropbox\IFTTT\reddit\yiff
             Searcher(@"C:\Users\pfckr\Dropbox\IFTTT\reddit\", true); //Change this as needed
             Console.WriteLine("Finished Indexing...");
             DeleteFiles();                                           //Delete the Files, since they are no longer being iterated over.
