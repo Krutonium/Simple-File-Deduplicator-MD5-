@@ -1,0 +1,2 @@
+# Simple File Deduplicator based on MD5 Hash
+Simply put, this will iterate over a folder you specify (Hardcoded at the moment), hashing all the files, and adding all with a pre-determined matching MD5 to a list. This can easily be expanded upon to match multiple MD5's using a list and an iterator, but I only needed to remove one kind particular file. (IFTTT doesn't bother to not save images that aren't actually images, and instead gives me a default templated image... Thanks >.>)
